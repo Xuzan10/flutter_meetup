@@ -4,15 +4,13 @@
 
 // You can read about packages here: https://flutter.io/using-packages/
 import 'package:flutter/material.dart';
-import 'package:flutter_meetup/assignment_1.dart';
-
-// TODO: Import the CategoryRoute widget
+import 'package:flutter_meetup/category_route.dart';
 
 /// The function that is called when main.dart is run.
 void main() {
   runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
-    home: Assignment1(),
+    home: CategoryRoute(),
   ));
 }
 
